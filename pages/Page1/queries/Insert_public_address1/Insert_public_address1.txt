@@ -1,0 +1,1 @@
+INSERT INTO public.address ("customer_id","address","city","zip_code","latitude","longitude","label") VALUES ('{{(Table1.newRow || {}).customer_id}}','{{(Table1.newRow || {}).address}}','{{(Table1.newRow || {}).city}}','{{(Table1.newRow || {}).zip_code}}','{{(Table1.newRow || {}).latitude}}','{{(Table1.newRow || {}).longitude}}','{{(Table1.newRow || {}).label}}')

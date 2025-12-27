@@ -1,0 +1,60 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 71,
+  "boxShadow": "none",
+  "defaultOptionValue": "GREEN",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "95z1k8ucxj",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "ITALIC",
+  "labelText": "اداره امور",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 34,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 26,
+  "mobileLeftColumn": 23,
+  "mobileRightColumn": 43,
+  "mobileTopRow": 19,
+  "needsErrorInfo": false,
+  "optionLabel": "name",
+  "optionValue": "code",
+  "parentColumnSpace": 20.25,
+  "parentId": "66kdg7qvwx",
+  "parentRowSpace": 10,
+  "placeholderText": "اداره امور",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 48,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"name\": \"اداره امور استان تهران\",\n    \"code\": \"1\"\n  },\n  {\n    \"name\": \" اداره امور استان اصفهان\",\n    \"code\": \"2\"\n  },\n  {\n    \"name\": \"اداره امور استان آذربایجان شرقی\",\n    \"code\": \"3\"\n  }\n\t,\n  {\n    \"name\": \"اداره امور استان آذربایجان شرقی\",\n    \"code\": \"3\"\n  }\n]",
+  "topRow": 64,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "j6hohk3w6u",
+  "widgetName": "Select1Copy"
+}

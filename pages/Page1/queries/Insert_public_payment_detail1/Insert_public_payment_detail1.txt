@@ -1,0 +1,1 @@
+INSERT INTO public.payment_detail ("order_id","payment_method","payment_status","amount","refund") VALUES ('{{(Table2.newRow || {}).order_id}}','{{(Table2.newRow || {}).payment_method}}','{{(Table2.newRow || {}).payment_status}}','{{(Table2.newRow || {}).amount}}','{{(Table2.newRow || {}).refund}}')

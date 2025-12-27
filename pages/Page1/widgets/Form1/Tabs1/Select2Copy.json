@@ -1,0 +1,62 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 10,
+  "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+  "defaultOptionValue": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "95z1k8ucxj",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "ITALIC",
+  "labelText": "مرجع صدور مصوبه",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 39,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 35,
+  "mobileLeftColumn": 25,
+  "mobileRightColumn": 45,
+  "mobileTopRow": 28,
+  "needsErrorInfo": false,
+  "optionLabel": "name",
+  "optionValue": "name",
+  "originalBottomRow": 33,
+  "originalTopRow": 26,
+  "parentColumnSpace": 20.25,
+  "parentId": "66kdg7qvwx",
+  "parentRowSpace": 10,
+  "placeholderText": "اداره صادر کننده",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 51,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"name\": \"اداره کل اعتبارات\",\n    \"code\": \"1\"\n  },\n  {\n    \"name\": \"اداره بررسی طرح ها\",\n    \"code\": \"2\"\n  },\n  {\n    \"name\": \"بانکداری شرکتی\",\n    \"code\": \"3\"\n  },\n\t\n  {\n    \"name\": \"بانکداری تجاری\",\n    \"code\": \"4\"\n  }\n\t,\n\t\n  {\n    \"name\": \"اداره امور استان\",\n    \"code\": \"5\"\n  }\n]",
+  "topRow": 2,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "kwtnc1ihtw",
+  "widgetName": "Select2Copy"
+}

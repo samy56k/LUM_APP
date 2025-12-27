@@ -1,0 +1,16 @@
+INSERT INTO public.user_data 
+("id", "gender","latitude","longitude","dob","phone","email","image","country","name","created_at","updated_at") 
+VALUES (
+  {{ Math.floor(Math.random() * (1000000 - 1000 + 1)) + 1000 }},
+  '{{Addresss.formData.gender}}',
+  42.6977, 
+  23.5783,
+  '{{Addresss.formData.dob}}',
+  '{{Addresss.formData.phone}}',
+  '{{Addresss.formData.email}}',
+  '{{Addresss.formData.image}}',
+  '{{Addresss.formData.country}}',
+  '{{Addresss.formData.name}}',
+  '{{new Date().toISOString()}}',
+  '{{new Date().toISOString()}}'
+);

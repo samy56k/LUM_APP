@@ -1,0 +1,1 @@
+UPDATE public.address SET "customer_id"= '{{Table1.updatedRow.customer_id}}', "address"= '{{Table1.updatedRow.address}}', "city"= '{{Table1.updatedRow.city}}', "zip_code"= '{{Table1.updatedRow.zip_code}}', "latitude"= '{{Table1.updatedRow.latitude}}', "longitude"= '{{Table1.updatedRow.longitude}}', "label"= '{{Table1.updatedRow.label}}' WHERE "id"= {{Table1.updatedRow.id}};

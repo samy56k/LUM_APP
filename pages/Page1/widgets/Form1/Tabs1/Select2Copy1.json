@@ -1,0 +1,58 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": false,
+  "borderRadius": "0.375rem",
+  "bottomRow": 9,
+  "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+  "defaultOptionValue": "نوع عقود تسهیلاتی",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "95z1k8ucxj",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "ITALIC",
+  "labelText": "نوع عقود تسهیلاتی",
+  "labelTextColor": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 2,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 35,
+  "mobileLeftColumn": 25,
+  "mobileRightColumn": 45,
+  "mobileTopRow": 28,
+  "needsErrorInfo": false,
+  "optionLabel": "name",
+  "optionValue": "name",
+  "parentColumnSpace": 20.25,
+  "parentId": "66kdg7qvwx",
+  "parentRowSpace": 10,
+  "placeholderText": "نوع عقد",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 12,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"name\": \"قرض الحسنه\",\n    \"code\": \"1\"\n  },\n  {\n    \"name\": \"مضاربه\",\n    \"code\": \"2\"\n  },\n  {\n    \"name\": \"مرابحه\",\n    \"code\": \"3\"\n  },\n\n  {\n    \"name\": \"مشارکت مدنی\",\n    \"code\": \"4\"\n  }\n\t,\n\n  {\n    \"name\": \"خرید دین\",\n    \"code\": \"5\"\n  }\n\t,\n\n  {\n    \"name\": \"فروش اقساطی\",\n    \"code\": \"6\"\n  }\n\t,\n\n  {\n    \"name\": \"سلف\",\n    \"code\": \"7\"\n  },\n\n  {\n    \"name\": \"مساقات\",\n    \"code\": \"8\"\n  }\n\t\t,\n\n  {\n    \"name\": \"اجاره به شرط تملیک\",\n    \"code\": \"9\"\n  }\n\t\t,\n\n  {\n    \"name\": \"جعاله\",\n    \"code\": \"10\"\n  }\n\t,\n\n  {\n    \"name\": \"مشارکت مدنی\",\n    \"code\": \"11\"\n  }\n\t\t,\n\n  {\n    \"name\": \"مشارکت حقوقی\",\n    \"code\": \"12\"\n  }\n\t,\n\n  {\n    \"name\": \"مزارعه\",\n    \"code\": \"13\"\n  }\n]",
+  "topRow": 2,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "8sin0xh88v",
+  "widgetName": "Select2Copy1"
+}

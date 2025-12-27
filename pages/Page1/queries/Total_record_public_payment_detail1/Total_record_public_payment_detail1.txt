@@ -1,0 +1,1 @@
+SELECT COUNT(*) from public.payment_detail where payment_method ilike '%{{Table2.searchText}}%';

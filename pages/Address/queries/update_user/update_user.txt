@@ -1,0 +1,13 @@
+UPDATE public."user_data" SET
+    "gender" = {{Addresss.formData.gender}},
+    "latitude" = {{Addresss.sourceData.latitude}},
+    "longitude" = {{Addresss.sourceData.longitude}},
+    "dob" = {{Addresss.formData.dob}},
+    "phone" = {{Addresss.formData.phone}},
+    "email" = {{Addresss.formData.email}},
+    "image" = {{Addresss.formData.image}},
+    "country" = {{Addresss.formData.country}},
+    "name" = {{Addresss.formData.name}},
+    "created_at" = {{Addresss.sourceData.created_at}},
+    "updated_at" = {{new Date().toISOString()}}
+  WHERE id = {{Addresss.sourceData.id}}; 
