@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "694964f267c83959b755d4ee_4ddc8174-bbb3-42d9-b5f2-a4924c238fb0",
-  "id": "Page1_Total_record_public_payment_detail1",
+  "gitSyncId": "694964f267c83959b755d4ee_92ccdaa9-3b7f-4079-b7a5-60fa0767fb67",
+  "id": "File_Creation_Update_public_payment_detail1",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT COUNT(*) from public.payment_detail where payment_method ilike '%{{Table2.searchText}}%';",
+      "body": "UPDATE public.payment_detail SET \"order_id\"= '{{Table2.updatedRow.order_id}}', \"payment_method\"= '{{Table2.updatedRow.payment_method}}', \"payment_status\"= '{{Table2.updatedRow.payment_status}}', \"amount\"= '{{Table2.updatedRow.amount}}', \"refund\"= '{{Table2.updatedRow.refund}}' WHERE \"id\"= {{Table2.updatedRow.id}};",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -27,8 +27,8 @@
         "key": "body"
       }
     ],
-    "name": "Total_record_public_payment_detail1",
-    "pageId": "Page1",
+    "name": "Update_public_payment_detail1",
+    "pageId": "File_Creation",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }

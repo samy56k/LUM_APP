@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "694964f267c83959b755d4ee_29d7f15b-797d-4197-abb5-b3fb79cdff08",
-  "id": "Page1_Select_public_payment_detail1",
+  "gitSyncId": "694964f267c83959b755d4ee_a41b0b16-80cb-4c16-9850-576fb960cbc6",
+  "id": "File_Creation_Update_public_address1",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT\n  *\nFROM\n  public.payment_detail\nWHERE\n  \"payment_method\" ilike '%{{Table2.searchText}}%'\nORDER BY\n  \"{{Table2.sortOrder.column || 'id'}}\" {{Table2.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"}}\nLIMIT\n  {{Table2.pageSize}}\nOFFSET\n  {{Table2.pageOffset}}",
+      "body": "UPDATE public.address SET \"customer_id\"= '{{Table1.updatedRow.customer_id}}', \"address\"= '{{Table1.updatedRow.address}}', \"city\"= '{{Table1.updatedRow.city}}', \"zip_code\"= '{{Table1.updatedRow.zip_code}}', \"latitude\"= '{{Table1.updatedRow.latitude}}', \"longitude\"= '{{Table1.updatedRow.longitude}}', \"label\"= '{{Table1.updatedRow.label}}' WHERE \"id\"= {{Table1.updatedRow.id}};",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -27,8 +27,8 @@
         "key": "body"
       }
     ],
-    "name": "Select_public_payment_detail1",
-    "pageId": "Page1",
+    "name": "Update_public_address1",
+    "pageId": "File_Creation",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }

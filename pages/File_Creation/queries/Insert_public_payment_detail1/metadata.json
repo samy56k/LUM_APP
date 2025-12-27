@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "694964f267c83959b755d4ee_a41b0b16-80cb-4c16-9850-576fb960cbc6",
-  "id": "Page1_Update_public_address1",
+  "gitSyncId": "694964f267c83959b755d4ee_7d347ff9-cda1-4dac-b195-dbe0256a6dfa",
+  "id": "File_Creation_Insert_public_payment_detail1",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "UPDATE public.address SET \"customer_id\"= '{{Table1.updatedRow.customer_id}}', \"address\"= '{{Table1.updatedRow.address}}', \"city\"= '{{Table1.updatedRow.city}}', \"zip_code\"= '{{Table1.updatedRow.zip_code}}', \"latitude\"= '{{Table1.updatedRow.latitude}}', \"longitude\"= '{{Table1.updatedRow.longitude}}', \"label\"= '{{Table1.updatedRow.label}}' WHERE \"id\"= {{Table1.updatedRow.id}};",
+      "body": "INSERT INTO public.payment_detail (\"order_id\",\"payment_method\",\"payment_status\",\"amount\",\"refund\") VALUES ('{{(Table2.newRow || {}).order_id}}','{{(Table2.newRow || {}).payment_method}}','{{(Table2.newRow || {}).payment_status}}','{{(Table2.newRow || {}).amount}}','{{(Table2.newRow || {}).refund}}')",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -27,8 +27,8 @@
         "key": "body"
       }
     ],
-    "name": "Update_public_address1",
-    "pageId": "Page1",
+    "name": "Insert_public_payment_detail1",
+    "pageId": "File_Creation",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }

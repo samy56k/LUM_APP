@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "694964f267c83959b755d4ee_51635033-2992-4e6f-916c-f62924fc399a",
-  "id": "Page1_Insert_public_address1",
+  "gitSyncId": "694964f267c83959b755d4ee_29d7f15b-797d-4197-abb5-b3fb79cdff08",
+  "id": "File_Creation_Select_public_payment_detail1",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "INSERT INTO public.address (\"customer_id\",\"address\",\"city\",\"zip_code\",\"latitude\",\"longitude\",\"label\") VALUES ('{{(Table1.newRow || {}).customer_id}}','{{(Table1.newRow || {}).address}}','{{(Table1.newRow || {}).city}}','{{(Table1.newRow || {}).zip_code}}','{{(Table1.newRow || {}).latitude}}','{{(Table1.newRow || {}).longitude}}','{{(Table1.newRow || {}).label}}')",
+      "body": "SELECT\n  *\nFROM\n  public.payment_detail\nWHERE\n  \"payment_method\" ilike '%{{Table2.searchText}}%'\nORDER BY\n  \"{{Table2.sortOrder.column || 'id'}}\" {{Table2.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"}}\nLIMIT\n  {{Table2.pageSize}}\nOFFSET\n  {{Table2.pageOffset}}",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -27,8 +27,8 @@
         "key": "body"
       }
     ],
-    "name": "Insert_public_address1",
-    "pageId": "Page1",
+    "name": "Select_public_payment_detail1",
+    "pageId": "File_Creation",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }

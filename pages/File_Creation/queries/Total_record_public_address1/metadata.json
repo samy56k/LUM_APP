@@ -1,6 +1,6 @@
 {
   "gitSyncId": "694964f267c83959b755d4ee_b720158d-5672-4a5f-b10b-e745a66c0565",
-  "id": "Page1_Total_record_public_address1",
+  "id": "File_Creation_Total_record_public_address1",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -28,7 +28,7 @@
       }
     ],
     "name": "Total_record_public_address1",
-    "pageId": "Page1",
+    "pageId": "File_Creation",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }

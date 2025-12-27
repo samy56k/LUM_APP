@@ -1,6 +1,7 @@
 {
   "gitSyncId": "694964f267c83959b755d4ee_f16929f2-1961-4427-beb7-fb4593dcdfd0",
   "unpublishedPage": {
+    "isHidden": false,
     "layouts": [
       {
         "dsl": {
@@ -26,7 +27,7 @@
         }
       }
     ],
-    "name": "Page1",
-    "slug": "page1"
+    "name": "File_Creation",
+    "slug": "file-creation"
   }
 }
