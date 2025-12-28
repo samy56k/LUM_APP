@@ -5,12 +5,12 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 65,
+  "bottomRow": 74,
   "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 560,
+      "bottomRow": 650,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": true,
       "detachFromLayout": true,
@@ -99,6 +99,51 @@
       "version": 1,
       "widgetId": "66kdg7qvwx",
       "widgetName": "Canvas3"
+    },
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 650,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "isLoading": false,
+      "isVisible": true,
+      "key": "eeefsihw9x",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 600,
+      "minWidth": 450,
+      "mobileBottomRow": 601,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 1100.3828125,
+      "mobileTopRow": 1,
+      "needsErrorInfo": false,
+      "parentColumnSpace": 1,
+      "parentId": "cdyroqxl03",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 1100.3828125,
+      "tabId": "tab3vuw1he8v8",
+      "tabName": "ثبت نامه ها",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "opzrrdzgbo",
+      "widgetName": "Canvas4"
     }
   ],
   "defaultTab": "",
@@ -123,14 +168,14 @@
   "mobileRightColumn": 29,
   "mobileTopRow": 1,
   "needsErrorInfo": false,
-  "originalBottomRow": 65,
+  "originalBottomRow": 74,
   "originalTopRow": 5,
   "parentColumnSpace": 18.0390625,
   "parentId": "0fr1p0cck1",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 63,
+  "rightColumn": 62,
   "shouldScrollContents": true,
   "shouldShowTabs": true,
   "tabsObj": {
@@ -149,6 +194,13 @@
       "label": "ثبت مصوبه",
       "positioning": "vertical",
       "widgetId": "66kdg7qvwx"
+    },
+    "tab3vuw1he8v8": {
+      "id": "tab3vuw1he8v8",
+      "index": 2,
+      "isVisible": true,
+      "label": "ثبت نامه ها",
+      "widgetId": "opzrrdzgbo"
     }
   },
   "topRow": 5,
