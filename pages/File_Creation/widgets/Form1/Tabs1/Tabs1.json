@@ -5,12 +5,12 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 74,
+  "bottomRow": 45,
   "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 650,
+      "bottomRow": 540,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": true,
       "detachFromLayout": true,
@@ -102,7 +102,7 @@
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 650,
+      "bottomRow": 620,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -144,6 +144,51 @@
       "version": 1,
       "widgetId": "opzrrdzgbo",
       "widgetName": "Canvas4"
+    },
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 360,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "isLoading": false,
+      "isVisible": true,
+      "key": "1t6egj2e3d",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 770,
+      "minWidth": 450,
+      "mobileBottomRow": 771,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 1082.34375,
+      "mobileTopRow": 1,
+      "needsErrorInfo": false,
+      "parentColumnSpace": 1,
+      "parentId": "cdyroqxl03",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 1082.34375,
+      "tabId": "tabwmcezkjl20",
+      "tabName": "لیست مصوبات",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "6zhvxc7kv9",
+      "widgetName": "Canvas5"
     }
   ],
   "defaultTab": "",
@@ -168,7 +213,7 @@
   "mobileRightColumn": 29,
   "mobileTopRow": 1,
   "needsErrorInfo": false,
-  "originalBottomRow": 74,
+  "originalBottomRow": 45,
   "originalTopRow": 5,
   "parentColumnSpace": 18.0390625,
   "parentId": "0fr1p0cck1",
@@ -201,6 +246,13 @@
       "isVisible": true,
       "label": "ثبت نامه ها",
       "widgetId": "opzrrdzgbo"
+    },
+    "tabwmcezkjl20": {
+      "id": "tabwmcezkjl20",
+      "index": 3,
+      "isVisible": true,
+      "label": "لیست مصوبات",
+      "widgetId": "6zhvxc7kv9"
     }
   },
   "topRow": 5,

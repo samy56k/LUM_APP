@@ -1,0 +1,40 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 60,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "iconName": "paperclip",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "yt6txrlhsg",
+  "leftColumn": 2,
+  "minWidth": 50,
+  "mobileBottomRow": 61,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 6,
+  "mobileTopRow": 57,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 16.59912109375,
+  "parentId": "opzrrdzgbo",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 6,
+  "topRow": 56,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "4ufdppao6w",
+  "widgetName": "IconButton3"
+}

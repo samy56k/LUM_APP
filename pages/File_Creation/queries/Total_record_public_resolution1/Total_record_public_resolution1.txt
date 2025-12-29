@@ -1,0 +1,1 @@
+SELECT COUNT(*) from public.resolution where resolution_title ilike '%{{Table1.searchText}}%';
