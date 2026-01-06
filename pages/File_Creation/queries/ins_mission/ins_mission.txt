@@ -1,0 +1,11 @@
+FUNCTION insert_mission(){
+if(SELECT * from MISSION M WHERE M.MISSION_NUMBER={{txtMissionNumber.text}} )
+RETURN ;
+ELSE
+INSERT INTO public."MISSION" ("MISSION_NUMBER", "RESOLUTION_ID", "SUBMIT_DATE", "MISSION_DATE", "TRANSPORT", "PROVIENCE_ID", "CITY_ID", "ADDRESS", "USER_RESPONSIBLE_ID", "DESCRIBE")
+  VALUES (
+		'{{txtMissionNumber.text}}', {{txtResolutionId.text}}, '{{txtSubmitDate.formattedDate}}', '{{txtMissionDate.formattedDate}}', {{drpVehiecle.selectedOptionValue}},
+		{{dropProvienceId.selectedOptionValue}}, {{drpCityId.selectedOptionValue}}, 
+		'{{txtAddress.text}}', '{{drpExperts.selectedOptionValue}}', '{{txtDescribe.text}}');
+		
+}

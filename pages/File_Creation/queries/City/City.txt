@@ -1,0 +1,2 @@
+SELECT * FROM public."city" C 
+WHERE C.lpa_province_id={{dropProvienceId.selectedOptionValue}}

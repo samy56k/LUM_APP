@@ -16,6 +16,10 @@
     {
       "id": "File_Creation",
       "isDefault": true
+    },
+    {
+      "id": "ثبت اطلاعات بازدید",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

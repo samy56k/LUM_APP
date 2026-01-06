@@ -1,0 +1,52 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 31,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "za21hwolro",
+  "leftColumn": 53,
+  "minWidth": 120,
+  "mobileBottomRow": 32,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 13,
+  "mobileTopRow": 28,
+  "needsErrorInfo": false,
+  "onClick": "{{showModal(Modal1.name).then(() => {\n  storeValue(MultiSelect_User.setSelectedOptions(), MultiSelect_User.selectedOptionValues);\n});\nINSERT_MISSION_ON_FORM_MISSION.run()}}",
+  "originalBottomRow": 31,
+  "originalTopRow": 27,
+  "parentColumnSpace": 16.59912109375,
+  "parentId": "443e43lt6x",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 62,
+  "text": "انتخاب کارشناس همراه",
+  "topRow": 27,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "lub3czv1sy",
+  "widgetName": "btnModal_Experts"
+}

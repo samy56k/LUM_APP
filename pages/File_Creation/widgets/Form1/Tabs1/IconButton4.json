@@ -2,7 +2,7 @@
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 60,
-  "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
+  "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
   "dynamicBindingPathList": [
@@ -13,33 +13,28 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicTriggerPathList": [
-    {
-      "key": "onClick"
-    }
-  ],
-  "iconName": "paperclip",
+  "dynamicTriggerPathList": [],
+  "iconName": "floppy-disk",
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "yt6txrlhsg",
-  "leftColumn": 8,
+  "key": "h3nxf4ylr1",
+  "leftColumn": 2,
   "minWidth": 50,
-  "mobileBottomRow": 61,
-  "mobileLeftColumn": 2,
-  "mobileRightColumn": 6,
-  "mobileTopRow": 57,
+  "mobileBottomRow": 60,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 3,
+  "mobileTopRow": 56,
   "needsErrorInfo": false,
-  "onClick": "{{showModal(Modal1.name);}}",
   "parentColumnSpace": 16.59912109375,
   "parentId": "opzrrdzgbo",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "hug",
-  "rightColumn": 12,
+  "rightColumn": 5,
   "topRow": 56,
   "type": "ICON_BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "4ufdppao6w",
-  "widgetName": "IconButton3"
+  "widgetId": "q2jmam2zx7",
+  "widgetName": "IconButton4"
 }
