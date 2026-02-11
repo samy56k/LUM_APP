@@ -1,0 +1,42 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 66,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "iconName": "floppy-disk",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "h3nxf4ylr1",
+  "leftColumn": 1,
+  "minWidth": 50,
+  "mobileBottomRow": 60,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 3,
+  "mobileTopRow": 56,
+  "needsErrorInfo": false,
+  "originalBottomRow": 66,
+  "originalTopRow": 62,
+  "parentColumnSpace": 16.59912109375,
+  "parentId": "urzpgq1c2l",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 4,
+  "topRow": 62,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "0qdp85ulkn",
+  "widgetName": "IconButton4"
+}

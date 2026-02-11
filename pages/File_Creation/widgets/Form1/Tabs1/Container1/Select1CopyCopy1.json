@@ -1,0 +1,57 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "0.375rem",
+  "bottomRow": 6,
+  "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+  "defaultOptionValue": "GREEN",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "95z1k8ucxj",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "ITALIC",
+  "labelText": "استان",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 26,
+  "mobileLeftColumn": 23,
+  "mobileRightColumn": 43,
+  "mobileTopRow": 19,
+  "needsErrorInfo": false,
+  "optionLabel": "name",
+  "optionValue": "code",
+  "parentColumnSpace": 20.25,
+  "parentId": "t0wczfxdz4",
+  "parentRowSpace": 10,
+  "placeholderText": "استان",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 14,
+  "serverSideFiltering": false,
+  "sourceData": "[\n{\"name\":\"آذربایجان شرقی\" ,\"code\": \"1\"},\n{\"name\":\"خراسان جنوبی\" ,\"code\": \"10\"},\n{\"name\":\"خراسان رضوی\" ,\"code\": \"11\"},\n{\"name\":\"خراسان شمالی\" ,\"code\": \"12\"},\n{\"name\":\"خوزستان\" ,\"code\": \"13\"},\n{\"name\":\"زنجان\" ,\"code\": \"14\"},\n{\"name\":\"سمنان\" ,\"code\": \"15\"},\n{\"name\":\"سیستان و بلوچستان\" ,\"code\": \"16\"},\n{\"name\":\"فارس\" ,\"code\": \"17\"},\n{\"name\":\"قزوین\" ,\"code\": \"18\"},\n{\"name\":\"قم\" ,\"code\": \"19\"},\n{\"name\":\"آذربایجان غربی\" ,\"code\": \"2\"},\n{\"name\":\"کردستان\" ,\"code\": \"20\"},\n{\"name\":\"کرمان\" ,\"code\": \"21\"},\n{\"name\":\"کرمانشاه\" ,\"code\": \"22\"},\n{\"name\":\"كهكیلویه و بویراحمد\" ,\"code\": \"23\"},\n{\"name\":\"گلستان\" ,\"code\": \"24\"},\n{\"name\":\"گیلان\" ,\"code\": \"25\"},\n{\"name\":\"لرستان\" ,\"code\": \"26\"},\n{\"name\":\"مازندران\" ,\"code\": \"27\"},\n{\"name\":\"مركزی\" ,\"code\": \"28\"},\n{\"name\":\"هرمزگان\" ,\"code\": \"29\"},\n{\"name\":\"اردبیل\" ,\"code\": \"3\"},\n{\"name\":\"همدان\" ,\"code\": \"30\"},\n{\"name\":\"یزد\" ,\"code\": \"31\"},\n{\"name\":\"البرز\" ,\"code\": \"4\"},\n{\"name\":\"اصفهان\" ,\"code\": \"5\"},\n{\"name\":\"ایلام\" ,\"code\": \"6\"},\n{\"name\":\"بوشهر\" ,\"code\": \"7\"},\n{\"name\":\"چهار محال و بختیاری\" ,\"code\": \"8\"},\n{\"name\":\"تهران\" ,\"code\": \"9\"}\n]",
+  "topRow": 0,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "pkk2ex956a",
+  "widgetName": "Select1CopyCopy1"
+}

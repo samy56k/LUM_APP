@@ -1,0 +1,12 @@
+INSERT INTO public."Payment" (
+	"id",
+	"Resolution_Id",
+	"Amount",
+	"Payment_Date",
+	"Pay_Status")
+VALUES (
+	'{{insert_form.formData.id}}',
+	'{{insert_form.formData.Resolution_Id}}',
+	'{{insert_form.formData.Amount}}',
+	'{{insert_form.formData.Payment_Date}}',
+	'{{insert_form.formData.Pay_Status}}');

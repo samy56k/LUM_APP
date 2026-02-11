@@ -18,7 +18,39 @@
       "isDefault": true
     },
     {
-      "id": "ثبت اطلاعات بازدید",
+      "id": "Inspection",
+      "isDefault": false
+    },
+    {
+      "id": "Final_Report",
+      "isDefault": false
+    },
+    {
+      "id": "Mission",
+      "isDefault": false
+    },
+    {
+      "id": "Resolution_list",
+      "isDefault": false
+    },
+    {
+      "id": "Payment_Stages",
+      "isDefault": false
+    },
+    {
+      "id": "INSPECTION",
+      "isDefault": false
+    },
+    {
+      "id": "LETTER",
+      "isDefault": false
+    },
+    {
+      "id": "PAYMENT",
+      "isDefault": false
+    },
+    {
+      "id": "Public.Payment",
       "isDefault": false
     }
   ],

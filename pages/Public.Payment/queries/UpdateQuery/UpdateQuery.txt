@@ -1,0 +1,6 @@
+UPDATE public."Payment" SET
+		"Resolution_Id" = '{{update_form.fieldState.Resolution_Id.isVisible ? update_form.formData.Resolution_Id : update_form.sourceData.Resolution_Id}}',
+    "Amount" = '{{update_form.fieldState.Amount.isVisible ? update_form.formData.Amount : update_form.sourceData.Amount}}',
+		"Payment_Date" = '{{update_form.fieldState.Payment_Date.isVisible ? update_form.formData.Payment_Date : update_form.sourceData.Payment_Date}}',
+		"Pay_Status" = '{{update_form.fieldState.Pay_Status.isVisible ? update_form.formData.Pay_Status : update_form.sourceData.Pay_Status}}'
+WHERE "id" = {{data_table.selectedRow.id}};
